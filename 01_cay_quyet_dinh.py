@@ -39,4 +39,8 @@ resault= my_tree.fit(dactrung,nhan)
 
 kq= resault.predict([[1, 4, 3, 6]])
 
-print(kq)
+if(kq==1):
+    kq1='co'
+else:
+    kq1='ko'
+print("benh nhan co bi benh tim: "+kq1)
