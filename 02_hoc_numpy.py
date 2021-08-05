@@ -8,7 +8,7 @@ c=np.array([1,2,3,4,5,6])
 print("số chiều của mảng a: ",a.ndim)
 
 b=np.array([[1,2,3,4],[5,6,7,8]])
-print("số chiều của mảng a: ",b.ndim)
+print("số chiều của mảng b: ",b.ndim)
 
 #hiển thị số hàng và cột:
 print("số hàng và cột của mảng a: ", a.shape)
